@@ -1,3 +1,32 @@
+# Sistema
+
+Para correr eficazmente estos tests, tenemos que tener instalado.
+
+[VISUAL STUDIO CODE](https://code.visualstudio.com/)
+* [VISUAL STUDIO CODE en LINUX](https://code.visualstudio.com/docs/setup/linux)
+```bash
+sudo snap install --classic code # or code-insiders
+```
+[GIT](https://git-scm.com/)
+```bash
+sudo apt update
+sudo apt install git
+```
+[NODE](https://nodejs.org/es/download/) 
+* [NODE en linux](https://nodejs.org/es/download/package-manager/)
+* [NODE en ubuntu y derivados](https://github.com/nodesource/distributions/blob/master/README.md)
+
+```bash
+# Using Ubuntu
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Using Debian, as root
+curl -sL https://deb.nodesource.com/setup_14.x | bash -
+apt-get install -y nod
+```
+
+
 # JavaScript
 
 Este proyecto contiene una configuración básica de JavaScript a través de [Node.js](https://nodejs.org/en/) con [Jest](https://jestjs.io/) como framework de testing. Como herramientas de apoyo, también está instalado [ESLint](https://eslint.org/) y un conjunto de paquetes que notificarán sobre posibles [_code smells_](https://en.wikipedia.org/wiki/Code_smell).

@@ -1,10 +1,8 @@
-// jest.config.js
-// Sync object
 module.exports = {
   testEnvironment: 'node',
   verbose: true,
   rootDir: process.cwd()
-};
+}
 
 // Or async function
 module.exports = async () => {
@@ -12,5 +10,5 @@ module.exports = async () => {
     testEnvironment: 'node',
     verbose: true,
     rootDir: process.cwd()
-  };
-};
+  }
+}
